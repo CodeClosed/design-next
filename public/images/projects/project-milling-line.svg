@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="4,000 TCD Cane Preparation and Milling Project Layout">
+  <rect width="800" height="500" fill="#0E1F2B"/>
+  <rect x="24" y="24" width="752" height="452" fill="#142B3A" stroke="#31566D" stroke-width="2"/>
+  <text x="48" y="64" fill="#D99A36" font-family="monospace" font-size="13">SAMPLE PROJECT CASE STUDY 02 // MILL TANDEM EXPANSION</text>
+  <text x="48" y="92" fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="700">4,000 TCD Swing-Hammer Fibrizer &amp; 4-Roller Mill Line</text>
+  <rect x="75" y="160" width="210" height="200" fill="#102533" stroke="#D99A36" stroke-width="3"/>
+  <circle cx="180" cy="260" r="56" fill="none" stroke="#9CC0D6" stroke-width="3"/>
+  <line x1="285" y1="260" x2="365" y2="260" stroke="#D99A36" stroke-width="4" stroke-dasharray="6 4"/>
+  <rect x="365" y="150" width="350" height="220" fill="#102533" stroke="#9CC0D6" stroke-width="3"/>
+  <circle cx="515" cy="225" r="36" fill="none" stroke="#D99A36" stroke-width="3"/>
+  <circle cx="465" cy="295" r="34" fill="none" stroke="#9CC0D6" stroke-width="3"/>
+  <circle cx="565" cy="295" r="34" fill="none" stroke="#9CC0D6" stroke-width="3"/>
+  <circle cx="410" cy="250" r="24" fill="none" stroke="#6E99B4" stroke-width="3"/>
+  <text x="48" y="440" fill="#8FAAC0" font-family="monospace" font-size="12">ILLUSTRATIVE TEMPLATE CASE STUDY — REPLACE WITH VERIFIED INSTALLATION PHOTOS</text>
+</svg>

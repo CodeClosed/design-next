@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Integrated sugar processing plant technical engineering schematic">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E3E52" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0E1F2B"/>
+      <stop offset="100%" stop-color="#142B3A"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="640" fill="url(#bg)"/>
+  <rect width="960" height="640" fill="url(#grid)" opacity="0.65"/>
+  <rect x="24" y="24" width="912" height="592" fill="none" stroke="#31566D" stroke-width="1.5"/>
+  <text x="48" y="64" fill="#D99A36" font-family="monospace" font-size="13" letter-spacing="2">PROCESS ARCHITECTURE SCHEMATIC // SAMPLE PLANT LAYOUT</text>
+  <text x="48" y="88" fill="#E6EEF3" font-family="sans-serif" font-size="20" font-weight="700">SUGAR MILLING, EVAPORATION &amp; CRYSTALLIZATION TRAIN</text>
+
+  <!-- Stage 1: Cane Fibrizer & 4-Roller Mill -->
+  <g transform="translate(56, 150)">
+    <rect x="0" y="0" width="210" height="250" fill="#102533" stroke="#4D7893" stroke-width="1.5"/>
+    <text x="16" y="28" fill="#D99A36" font-family="monospace" font-size="12">01 // EXTRACTION</text>
+    <text x="16" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="15" font-weight="600">4-Roller Mill Unit</text>
+    <circle cx="80" cy="145" r="28" fill="none" stroke="#9CC0D6" stroke-width="2.5"/>
+    <circle cx="135" cy="145" r="28" fill="none" stroke="#9CC0D6" stroke-width="2.5"/>
+    <circle cx="107" cy="100" r="28" fill="none" stroke="#D99A36" stroke-width="2.5"/>
+    <circle cx="52" cy="108" r="20" fill="none" stroke="#6E99B4" stroke-width="2"/>
+    <line x1="28" y1="196" x2="182" y2="196" stroke="#4D7893" stroke-width="2"/>
+    <text x="16" y="226" fill="#A9C1D1" font-family="monospace" font-size="11">2,500–10,000 TCD</text>
+  </g>
+
+  <!-- Flow Arrow 1->2 -->
+  <path d="M 272 275 L 316 275" stroke="#D99A36" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="316,269 328,275 316,281" fill="#D99A36"/>
+
+  <!-- Stage 2: Falling Film Evaporator -->
+  <g transform="translate(334, 130)">
+    <rect x="0" y="0" width="210" height="290" fill="#102533" stroke="#4D7893" stroke-width="1.5"/>
+    <text x="16" y="28" fill="#D99A36" font-family="monospace" font-size="12">02 // EVAPORATION</text>
+    <text x="16" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="15" font-weight="600">Falling Film Body</text>
+    <rect x="65" y="74" width="80" height="150" rx="6" fill="none" stroke="#9CC0D6" stroke-width="2.5"/>
+    <line x1="82" y1="88" x2="82" y2="210" stroke="#4D7893" stroke-width="2"/>
+    <line x1="98" y1="88" x2="98" y2="210" stroke="#4D7893" stroke-width="2"/>
+    <line x1="114" y1="88" x2="114" y2="210" stroke="#4D7893" stroke-width="2"/>
+    <line x1="130" y1="88" x2="130" y2="210" stroke="#4D7893" stroke-width="2"/>
+    <path d="M 65 224 L 105 248 L 145 224" fill="none" stroke="#D99A36" stroke-width="2"/>
+    <text x="16" y="270" fill="#A9C1D1" font-family="monospace" font-size="11">1,000–5,500 m² HSA</text>
+  </g>
+
+  <!-- Flow Arrow 2->3 -->
+  <path d="M 550 275 L 594 275" stroke="#D99A36" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="594,269 606,275 594,281" fill="#D99A36"/>
+
+  <!-- Stage 3: Continuous Pan & Centrifugal -->
+  <g transform="translate(612, 150)">
+    <rect x="0" y="0" width="292" height="250" fill="#102533" stroke="#4D7893" stroke-width="1.5"/>
+    <text x="16" y="28" fill="#D99A36" font-family="monospace" font-size="12">03 // CRYSTALLIZATION &amp; CURING</text>
+    <text x="16" y="48" fill="#FFFFFF" font-family="sans-serif" font-size="15" font-weight="600">VCP Pan &amp; High-G Centrifugal</text>
+    <rect x="28" y="84" width="90" height="110" fill="none" stroke="#9CC0D6" stroke-width="2.2"/>
+    <line x1="28" y1="120" x2="118" y2="120" stroke="#D99A36" stroke-width="1.5"/>
+    <line x1="28" y1="156" x2="118" y2="156" stroke="#D99A36" stroke-width="1.5"/>
+    <rect x="160" y="96" width="96" height="90" fill="none" stroke="#9CC0D6" stroke-width="2.2"/>
+    <line x1="208" y1="74" x2="208" y2="186" stroke="#D99A36" stroke-width="2.5"/>
+    <rect x="174" y="114" width="68" height="56" fill="none" stroke="#6E99B4" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="16" y="226" fill="#A9C1D1" font-family="monospace" font-size="11">8–12 Cell VCP // 1,750 kg Batch</text>
+  </g>
+
+  <!-- Title Block -->
+  <g transform="translate(48, 480)">
+    <rect x="0" y="0" width="864" height="108" fill="#0B1923" stroke="#31566D" stroke-width="1.5"/>
+    <line x1="560" y1="0" x2="560" y2="108" stroke="#31566D" stroke-width="1.5"/>
+    <text x="20" y="34" fill="#D99A36" font-family="monospace" font-size="12">DESIGN STANDARD // TEMPLATE REFERENCE</text>
+    <text x="20" y="60" fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="600">Heavy Mechanical Fabrication · Stainless Process Vessels · Field Commissioning</text>
+    <text x="20" y="86" fill="#8FAAC0" font-family="monospace" font-size="11">ILLUSTRATIVE ENGINEERING DIAGRAM — REPLACE WITH FACILITY PHOTOGRAPHY</text>
+    <text x="580" y="36" fill="#8FAAC0" font-family="monospace" font-size="11">SCALE: NTS</text>
+    <text x="580" y="60" fill="#8FAAC0" font-family="monospace" font-size="11">DWG NO: VSP-ARCH-001</text>
+    <text x="580" y="84" fill="#D99A36" font-family="monospace" font-size="11">STATUS: SAMPLE TEMPLATE</text>
+  </g>
+</svg>

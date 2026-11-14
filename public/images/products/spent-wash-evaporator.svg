@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Multi-Effect Distillery Spent Wash Evaporator schematic">
+  <rect width="800" height="520" fill="#F0F3F5"/>
+  <rect x="20" y="20" width="760" height="480" fill="#FFFFFF" stroke="#C5D0D8" stroke-width="2"/>
+  <rect x="20" y="20" width="760" height="48" fill="#142B3A"/>
+  <text x="40" y="50" fill="#FFFFFF" font-family="monospace" font-size="14" font-weight="700">MODEL VSP-SWE-800 // MULTI-EFFECT SPENT WASH EVAPORATOR</text>
+  <!-- 4 evaporator vessels -->
+  <rect x="115" y="135" width="95" height="230" rx="10" fill="#F7F8F6" stroke="#142B3A" stroke-width="3.5"/>
+  <rect x="260" y="135" width="95" height="230" rx="10" fill="#F7F8F6" stroke="#142B3A" stroke-width="3.5"/>
+  <rect x="405" y="135" width="95" height="230" rx="10" fill="#F7F8F6" stroke="#142B3A" stroke-width="3.5"/>
+  <rect x="550" y="155" width="120" height="210" rx="10" fill="#E6ECF0" stroke="#D99A36" stroke-width="4"/>
+  <!-- Piping headers -->
+  <path d="M 162 135 L 162 110 L 307 110 L 307 135" fill="none" stroke="#31566D" stroke-width="3"/>
+  <path d="M 307 110 L 452 110 L 452 135" fill="none" stroke="#31566D" stroke-width="3"/>
+  <path d="M 452 110 L 610 110 L 610 155" fill="none" stroke="#31566D" stroke-width="3"/>
+  <text x="128" y="255" fill="#142B3A" font-family="monospace" font-size="12">EFF-1</text>
+  <text x="273" y="255" fill="#142B3A" font-family="monospace" font-size="12">EFF-2</text>
+  <text x="418" y="255" fill="#142B3A" font-family="monospace" font-size="12">EFF-3</text>
+  <text x="568" y="255" fill="#142B3A" font-family="monospace" font-size="12">FC FINISHER</text>
+  <text x="40" y="468" fill="#546470" font-family="monospace" font-size="12">SAMPLE SCHEMATIC — 300 TO 1,500 m³/DAY // SS 316L / DUPLEX ZLD SYSTEM</text>
+</svg>

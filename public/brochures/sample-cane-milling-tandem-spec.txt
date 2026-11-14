@@ -1,0 +1,12 @@
+================================================================================
+SAMPLE DATASHEET: VSP-MT-4R — 4-ROLLER HEAVY-DUTY CANE MILLING TANDEM
+================================================================================
+NOTICE: Illustrative sample datasheet for corporate website template validation.
+
+SPECIFICATIONS:
+- Nominal Capacity: 2,500 – 10,000 TCD
+- Roller Dimensions: 760 x 1,525 mm to 1,150 x 2,300 mm
+- Shaft Material: EN-19 / 42CrMo4 Forged Alloy Steel (Ultrasonic Tested)
+- Target Bagasse Moisture: 47.5 – 49.0% (process dependent)
+- Drive Compatibility: Planetary Gearbox / AC VFD / Steam Turbine
+================================================================================

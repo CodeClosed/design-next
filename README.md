@@ -1,97 +1,135 @@
-# 🖋️ Vihaan Varshney — Editorial Engineering Portfolio
+# Industrial Corporate Website Starter Template (Sugar Processing Equipment)
 
-[![Live Site](https://img.shields.io/badge/Live-Portfolio-1d4ed8?style=flat-square&logo=google-chrome&logoColor=white)](https://vihaanvarshney.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-CodeClosed-1c1815?style=flat-square&logo=github&logoColor=white)](https://github.com/CodeClosed)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vihaan_Varshney-0a66c2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vihaan-varshney/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-2d6a4f?style=flat-square)](LICENSE)
+A production-quality, locally runnable B2B corporate website starter template engineered with **Next.js (App Router)**, **TypeScript (strict mode)**, **Tailwind CSS**, **React Hook Form + Zod**, **Vitest**, and **Playwright**.
 
-An authoritative, minimalist editorial engineering portfolio for **Vihaan Varshney**, B.Tech CSE (AI & ML) student at VIT Vellore. Built with pure **HTML5, CSS3, and modern Vanilla JavaScript**, inspired by the clean, typography-first aesthetics of *Ellipsus* and *Ali Abdaal*.
+> **Important Template Policy:** All company branding, statistics, project case studies, leadership profiles, testimonials, and sample brochures are clearly marked placeholders (`isSampleContent: true` / `[Placeholder]`). Zero certifications (such as ISO or ASME) or customer claims are presented as verified facts.
 
 ---
 
-## ✨ Key Highlights & Features
+## Features
 
-### 1. 📖 Pure Minimalist Editorial Aesthetic
-- **Linen & Paper Canvas**: Warm paper background (`#fcfbf9`) paired with crisp white cards (`#ffffff`) and refined light borders (`#eae5dc`).
-- **Literary Typography**: Headings set in *Newsreader* and *Instrument Serif*, body copy in clean *Inter*, and code tags in *JetBrains Mono*.
-- **Royal Blue Accent System**: Subtle academic blue accents (`#1d4ed8`) across drop-caps, keyword tags, category badges, and interactive active states.
-- **Polished Dark Mode**: System-aware theme switcher with seamless transition and `localStorage` persistence.
-
-### 2. 💼 Industry Experience (Interactive Collapsible Accordion)
-- **Role**: AI / ML Intern @ **Carbonetics Carbon Capture Pvt. Ltd.** (Summer 2026 • Remote / New Delhi).
-- **Deliverables**: End-to-end applied machine learning pipelines for industrial carbon capture use cases, data quality imputation, feature transformations, and REST API model serving.
-- **Repository & Certificate**: Direct link to the [`Carbonetics_internship_weekly_codes`](https://github.com/CodeClosed/Carbonetics_internship_weekly_codes) repository and verified `REF: CERT-09` certificate reference.
-- **Interaction**: Semantic `<details>` / `<summary>` card, collapsed by default with an interactive rotating `Details ↓` indicator badge.
-
-### 3. 🎛️ Interactive Domain Filters (Zero-Reload)
-- **Technical Stack & Skills (6 Categories)**: Filter between *Languages*, *Web & Full-Stack*, *AI & Data Science*, *Databases & Storage*, *Compilers & Systems*, and *Tooling & DevOps*.
-- **Featured Projects (8 Systems)**: Filter between *Compilers & Systems (2)*, *AI & Deep Learning (2)*, *Full-Stack & Databases (3)*, and *Front-End & Canvas (1)*.
-- **Education Journey (5 Records)**: Filter between *Undergraduate (VIT Vellore)* and *High School (CBSE 12th)*.
-
-### 4. 🛠️ Featured Engineering Projects
-1. **[The Fresh Programming Language](https://github.com/CodeClosed/fresh-lang)** — Statically-typed language with Pratt parser, bytecode compiler, stack VM, mark-and-sweep GC, and published PyPI release.
-2. **[OS Process Simulator & CPU Scheduler](https://github.com/CodeClosed/OS-Project-PCB-State)** — 5-state PCB lifecycle visualizer with 6 CPU scheduling algorithms and dynamic Gantt charts.
-3. **[NutriMenu AI Platform](https://github.com/CodeClosed/AI-Project)** — Biometric 3-tier food recommendation system with EasyOCR text extraction and Gemini AI.
-4. **[Chest X-Ray AI Analysis API](https://github.com/CodeClosed/Cloud-Project)** — Dual-model medical imaging service (U-Net lung segmentation + EfficientNetB0 classification) with Grad-CAM heatmaps.
-5. **[FIX_MASTER Service Dispatch](https://github.com/CodeClosed/FIX_MASTER)** — Relational PostgreSQL system with 3NF/BCNF schema normalization, automated audit triggers, and stored procedures.
-6. **[FixPlz Facilities & Work-Orders](https://github.com/sudeep-codes/FixPlz)** — Campus grievance platform with PostgreSQL Row-Level Security (RLS) and Celery task queues.
-7. **[Web-Based Inventory Management](https://github.com/CodeClosed/Web-Programing-Project-IMS-24BAI0158)** — Client-side inventory platform with CSV/JSON import/export and audit logs.
-8. **[Minimalist Editorial Portfolio (Website 2.0)](https://github.com/CodeClosed/website)** — Typography-first personal engineering portfolio with zero-reload domain filters, collapsible internship accordion, and system-aware light/dark theming.
-
-### 5. 📜 Verified Credentials
-- **Harvard University (CS50P)**: Introduction to Programming with Python.
-- **IIIT Delhi / NPTEL**: Human Computer Interaction (Cognitive heuristics, GOMS, Fitts's law).
-- **Udemy**: Machine Learning A-Z [2026] (SuperDataScience).
-
-### 6. 📬 Clickable Contact Cards
-- 3 distinct responsive tile cards for **Email** (`mailto:` with copy-to-clipboard toast), **LinkedIn**, and **GitHub** featuring official vector brand logos and direct links.
+- **Full Corporate Sitemap**: Home, About Us, Products (`/products` + `/products/[slug]`), Industries (`/industries` + `/industries/[slug]`), Engineering & Manufacturing Capabilities, Projects (`/projects` + `/projects/[slug]`), Quality Assurance, Resources & FAQs, Contact & RFQ, Privacy Policy, and Terms & Conditions.
+- **Centralized Typed Content Layer**: Add or update equipment, project case studies, industries, and corporate contact details in `src/content/` without touching presentation components.
+- **Equipment Search & Filtering**: Live search across model codes, applications, and specifications alongside category filter controls synchronized with URL query parameters.
+- **Real Client & Server Form Validation**: General Enquiry and Technical RFQ forms built with React Hook Form + Zod, supporting specification file attachments (`.pdf`, `.doc`, `.docx`, `.dwg`, `.dxf`, `.png`, `.jpg`, up to 10 MB), IP rate limiting, honeypot spam protection, and an honest email provider abstraction.
+- **SEO, Accessibility & Security**: Dynamic `sitemap.xml`, `robots.txt`, canonical metadata, `Organization`, `BreadcrumbList`, and `Product` JSON-LD, WCAG 2.2 AA semantics (skip link, landmarks, keyboard-scrollable responsive spec tables, `prefers-reduced-motion`), and HTTP security headers in `next.config.ts`.
 
 ---
 
-## 📂 Repository Structure
+## Technology Stack
+
+- **Framework**: Next.js (App Router) + React 19
+- **Language**: TypeScript (`strict: true`)
+- **Styling**: Tailwind CSS v4 + CSS design tokens
+- **Icons & Motion**: `lucide-react`, `motion`
+- **Forms & Validation**: `react-hook-form`, `@hookform/resolvers`, `zod`
+- **Testing & Linting**: Vitest, React Testing Library, Playwright, ESLint
+
+---
+
+## Folder Structure
 
 ```text
-├── index.html              # Main semantic HTML5 document
-├── styles.css              # Editorial styling, typography & dark mode tokens
-├── script.js               # Theme toggler, filters, mobile menu & clipboard actions
-├── README.md               # Project documentation & overview
-└── favicon/                # Comprehensive favicon suite
-    ├── favicon.svg         # High-DPI scalable vector SVG favicon
-    ├── favicon.ico         # Multi-size 16x16 & 32x32 raster ICO
-    ├── favicon-16x16.png   # 16px PNG favicon
-    ├── favicon-32x32.png   # 32px PNG favicon
-    ├── apple-touch-icon.png# 180px iOS touch icon
-    └── site.webmanifest    # Web app manifest
+├── docs/                       # Architecture, Design System, Testing & Project docs
+├── public/
+│   ├── brochures/              # Sample downloadable technical datasheets
+│   └── images/                 # Engineering SVG schematics (hero, products, projects)
+├── src/
+│   ├── app/                    # App Router pages, dynamic [slug] routes, API & SEO files
+│   ├── components/             # Modular UI, layout, home, product, form & FAQ components
+│   ├── content/                # Centralized typed domain data & query helpers
+│   ├── lib/                    # Zod schemas, email/enquiry services, rate limiter, SEO utils
+│   └── types/                  # Domain TypeScript interfaces
+├── tests/
+│   ├── unit/                   # Vitest unit & React Testing Library component specs
+│   └── e2e/                    # Playwright E2E journeys & responsive viewport audits
+├── .env.example                # Documented placeholder environment variables
+├── next.config.ts              # Security headers & SVG image policy
+└── tsconfig.json               # Strict TypeScript config
 ```
 
 ---
 
-## 🚀 Running Locally
+## Getting Started
 
-No package manager, build step, or runtime dependencies are required:
+### Prerequisites
+- Node.js `20+` (verified on Node `v24.14.0` and npm `11.11.0`)
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/CodeClosed/website.git
-   cd website
-   ```
+### Installation & Local Development
 
-2. **Open in Browser**:
-   - Double-click `index.html` to open directly in any browser.
-   - Or start a local lightweight web server:
-     ```bash
-     python -m http.server 8000
-     ```
-     Then navigate to `http://localhost:8000`.
+```bash
+npm install
+cp .env.example .env.local
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📬 Contact & Connect
+## Environment Variables
 
-- **Email**: [vihaan.varshney@outlook.com](mailto:vihaan.varshney@outlook.com)
-- **LinkedIn**: [linkedin.com/in/vihaan-varshney](https://www.linkedin.com/in/vihaan-varshney/)
-- **GitHub**: [github.com/CodeClosed](https://github.com/CodeClosed)
+See `.env.example` for all supported variables:
+
+| Variable | Purpose | Default |
+| --- | --- | --- |
+| `NEXT_PUBLIC_SITE_URL` | Canonical base URL for metadata, `sitemap.xml`, and JSON-LD | `http://localhost:3000` |
+| `EMAIL_PROVIDER` | Enquiry transport mode: `mock`, `resend`, or `smtp` | `mock` |
+| `EMAIL_FROM` | Sender address when live email transport is enabled | Placeholder |
+| `EMAIL_TO_SALES` | Recipient corporate sales inbox | Placeholder |
+| `RESEND_API_KEY` | Resend API key (required when `EMAIL_PROVIDER=resend`) | Empty |
+| `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` | SMTP configuration placeholder (when `EMAIL_PROVIDER=smtp`) | Empty |
+| `RATE_LIMIT_MAX_REQUESTS` | Maximum `/api/enquiry` submissions per 10-minute window per IP | `15` |
+| `NEXT_PUBLIC_ANALYTICS_ID` | Optional analytics measurement ID | Empty |
 
 ---
 
-*Designed and engineered by Vihaan Varshney.*
+## Customizing Content & Branding
+
+### 1. Replace Company Branding & Contact Details
+Edit `src/content/company.ts` to replace:
+- `name`, `shortName`, `legalName`, `tagline`, `description`
+- `contact` (emails, phone numbers, WhatsApp number, business hours)
+- `addresses` (corporate office, manufacturing works, coordinates)
+- `statistics`, `milestones`, `leadership`, `testimonials`
+
+### 2. Add a New Equipment Product
+Add a new typed object to the `products` array in `src/content/products/index.ts` and place its image under `public/images/products/` and brochure under `public/brochures/`. Both `/products` filtering, `/products/[slug]` static route generation, `/sitemap.xml`, and the `/contact` RFQ dropdown update automatically.
+
+### 3. Add a Project Case Study
+Add a new object to `projects` in `src/content/projects/index.ts` and add its image to `public/images/projects/`.
+
+### 4. Configure Live Email Delivery
+By default (`EMAIL_PROVIDER=mock`), `/api/enquiry` validates all fields and attachments server-side and returns an honest `development_preview` confirmation with an `ENQ-YYYYMMDD-XXXX` reference ID without pretending an email was sent.
+To enable live emails via Resend:
+1. Set `EMAIL_PROVIDER=resend`, `RESEND_API_KEY=...`, `EMAIL_FROM=...`, and `EMAIL_TO_SALES=...` in `.env.local`.
+2. Restart the Next.js server.
+
+---
+
+## Verification & Testing Commands
+
+```bash
+# TypeScript strict type checking
+npm run typecheck
+
+# ESLint check
+npm run lint
+
+# Vitest unit & component test suite
+npm test
+
+# Production Next.js build
+npm run build
+
+# Playwright end-to-end tests (auto-starts production server on port 3000)
+npx playwright test
+```
+
+---
+
+## Known Limitations (Starter Template)
+- **Visual Assets & Brochures**: Provided schematics (`.svg`) and brochures (`.txt`) are illustrative engineering placeholders; replace them with actual plant photography and designed PDF datasheets before launch.
+- **SMTP Adapter**: `ResendEmailProvider` works out of the box via HTTPS `fetch` when configured; `SmtpEmailProvider` acts as a documented integration boundary requiring `nodemailer` if SMTP transport is preferred over Resend.
+- **Rate Limiter**: Uses an in-memory per-instance store suitable for single-node deployments; swap with Redis if scaling horizontally across multiple serverless/container instances.
+- **File Attachments**: Uploaded files on `/contact` are validated by extension, MIME type, and size server-side and summarized in the confirmation response; attach cloud object storage or mail attachment streaming in `src/lib/services/email.ts` if forwarding binary drawings directly to sales inboxes.

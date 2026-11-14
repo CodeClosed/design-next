@@ -1,0 +1,11 @@
+================================================================================
+SAMPLE DATASHEET: VSP-MBC-3000 — MULTI-JET BAROMETRIC CONDENSER
+================================================================================
+NOTICE: Illustrative sample datasheet for corporate website template validation.
+
+SPECIFICATIONS:
+- Vapor Load: 5 – 45 TPH
+- Operating Vacuum: 630 – 660 mmHg
+- Injection Water Pressure: 1.4 – 1.8 bar(g)
+- Approach Temperature: 3.0 – 5.0 deg C
+================================================================================

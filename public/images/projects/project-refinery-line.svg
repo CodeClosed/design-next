@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="600 TPD Refinery Purging and Drying Project Layout">
+  <rect width="800" height="500" fill="#0E1F2B"/>
+  <rect x="24" y="24" width="752" height="452" fill="#142B3A" stroke="#31566D" stroke-width="2"/>
+  <text x="48" y="64" fill="#D99A36" font-family="monospace" font-size="13">SAMPLE PROJECT CASE STUDY 03 // REFINERY BACK-END</text>
+  <text x="48" y="92" fill="#FFFFFF" font-family="sans-serif" font-size="20" font-weight="700">600 TPD Centrifugal Battery &amp; SS 304 Dryer-Cooler Line</text>
+  <rect x="75" y="160" width="110" height="190" fill="#102533" stroke="#9CC0D6" stroke-width="3"/>
+  <rect x="215" y="160" width="110" height="190" fill="#102533" stroke="#9CC0D6" stroke-width="3"/>
+  <rect x="370" y="190" width="340" height="130" rx="8" fill="#102533" stroke="#D99A36" stroke-width="3"/>
+  <line x1="540" y1="190" x2="540" y2="320" stroke="#4D7893" stroke-width="3" stroke-dasharray="6 4"/>
+  <text x="98" y="260" fill="#E6EEF3" font-family="monospace" font-size="12">CENT-1</text>
+  <text x="238" y="260" fill="#E6EEF3" font-family="monospace" font-size="12">CENT-2</text>
+  <text x="455" y="260" fill="#E6EEF3" font-family="monospace" font-size="13">SS 304 DRYER-COOLER</text>
+  <text x="48" y="440" fill="#8FAAC0" font-family="monospace" font-size="12">ILLUSTRATIVE TEMPLATE CASE STUDY — REPLACE WITH VERIFIED INSTALLATION PHOTOS</text>
+</svg>

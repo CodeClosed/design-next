@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Rotary Cascade Sugar Dryer and Cooler Drum schematic">
+  <rect width="800" height="520" fill="#F0F3F5"/>
+  <rect x="20" y="20" width="760" height="480" fill="#FFFFFF" stroke="#C5D0D8" stroke-width="2"/>
+  <rect x="20" y="20" width="760" height="48" fill="#142B3A"/>
+  <text x="40" y="50" fill="#FFFFFF" font-family="monospace" font-size="14" font-weight="700">MODEL VSP-SDC-60 // ROTARY CASCADE SUGAR DRYER &amp; COOLER</text>
+  <!-- Horizontal Drum -->
+  <rect x="140" y="185" width="520" height="140" rx="8" fill="#F7F8F6" stroke="#142B3A" stroke-width="4"/>
+  <!-- Zone divider -->
+  <line x1="400" y1="185" x2="400" y2="325" stroke="#D99A36" stroke-width="4" stroke-dasharray="8 6"/>
+  <!-- Riding rings -->
+  <rect x="215" y="170" width="22" height="170" fill="#31566D" stroke="#142B3A" stroke-width="2"/>
+  <rect x="565" y="170" width="22" height="170" fill="#31566D" stroke="#142B3A" stroke-width="2"/>
+  <!-- Trunnion bases -->
+  <polygon points="196,355 256,355 242,340 210,340" fill="#D99A36" stroke="#142B3A" stroke-width="2"/>
+  <polygon points="546,355 606,355 592,340 560,340" fill="#D99A36" stroke="#142B3A" stroke-width="2"/>
+  <text x="260" y="260" fill="#142B3A" font-family="monospace" font-size="13">DRYING ZONE</text>
+  <text x="435" y="260" fill="#142B3A" font-family="monospace" font-size="13">COOLING ZONE</text>
+  <text x="40" y="468" fill="#546470" font-family="monospace" font-size="12">SAMPLE SCHEMATIC — 15 TO 75 TPH // SS 304 CONTACT DRUM (&lt;0.04% MOISTURE)</text>
+</svg>

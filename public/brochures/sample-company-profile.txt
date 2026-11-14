@@ -1,0 +1,25 @@
+================================================================================
+VANGUARD SUGAR & PROCESS ENGINEERING [STARTER TEMPLATE PLACEHOLDER]
+Sample Corporate Profile & Manufacturing Summary
+================================================================================
+NOTE: This is an illustrative demonstration document shipped with the starter
+template. Replace with your verified PDF corporate profile prior to launch.
+
+1. CORPORATE OVERVIEW (PLACEHOLDER)
+- Focus: Heavy equipment manufacturing for cane sugar factories, sugar refineries,
+  and integrated molasses/grain distilleries.
+- Plant Capacity Range Supported: 1,250 – 12,000+ TCD
+- Core Engineering Scope: Process & thermal design, heavy plate fabrication,
+  precision CNC machining, trial shop assembly, NDT quality inspection, and
+  site commissioning support.
+
+2. CORE PRODUCT FAMILIES
+- Cane Preparation & Milling Systems (Fibrizer Shredders, 4-Roller Mill Units)
+- Juice Heating & Evaporation Plants (Tubular Falling Film Evaporators, Condensers)
+- Crystallization & Centrifugal Machinery (Vertical Continuous Pans, Batch Centrifugals)
+- Drying & Distillery Systems (Rotary Sugar Dryer-Coolers, Spent Wash ZLD Evaporators)
+
+3. ENQUIRY CONTACT (PLACEHOLDER)
+- Sales Email: enquiries@example-sugar-engineering.invalid
+- Corporate & Works Address: See /contact page placeholders
+================================================================================

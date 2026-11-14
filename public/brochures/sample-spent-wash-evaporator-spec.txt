@@ -1,0 +1,11 @@
+================================================================================
+SAMPLE DATASHEET: VSP-SWE-800 — MULTI-EFFECT SPENT WASH EVAPORATOR
+================================================================================
+NOTICE: Illustrative sample datasheet for corporate website template validation.
+
+SPECIFICATIONS:
+- Feed Flow: 300 – 1,500 m3/day
+- Feed Solids: 8 – 12% w/w
+- Product Concentrate: 55 – 60% w/w
+- Wetted Metallurgy: SS 316L / UNS S32205 Duplex
+================================================================================

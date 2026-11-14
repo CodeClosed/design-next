@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-label="Tubular Falling Film Evaporator Body schematic">
+  <rect width="800" height="520" fill="#F0F3F5"/>
+  <rect x="20" y="20" width="760" height="480" fill="#FFFFFF" stroke="#C5D0D8" stroke-width="2"/>
+  <rect x="20" y="20" width="760" height="48" fill="#142B3A"/>
+  <text x="40" y="50" fill="#FFFFFF" font-family="monospace" font-size="14" font-weight="700">MODEL VSP-FFE-4500 // FALLING FILM EVAPORATOR BODY</text>
+  <!-- Main evaporator column -->
+  <rect x="270" y="100" width="170" height="290" rx="16" fill="#F7F8F6" stroke="#142B3A" stroke-width="4"/>
+  <!-- Tube sheet lines -->
+  <line x1="270" y1="150" x2="440" y2="150" stroke="#D99A36" stroke-width="5"/>
+  <line x1="270" y1="340" x2="440" y2="340" stroke="#D99A36" stroke-width="5"/>
+  <!-- Vertical tubes -->
+  <line x1="298" y1="150" x2="298" y2="340" stroke="#31566D" stroke-width="3"/>
+  <line x1="324" y1="150" x2="324" y2="340" stroke="#31566D" stroke-width="3"/>
+  <line x1="350" y1="150" x2="350" y2="340" stroke="#31566D" stroke-width="3"/>
+  <line x1="376" y1="150" x2="376" y2="340" stroke="#31566D" stroke-width="3"/>
+  <line x1="402" y1="150" x2="402" y2="340" stroke="#31566D" stroke-width="3"/>
+  <!-- Vapor separator drum -->
+  <path d="M 440 345 L 510 345 L 510 155" fill="none" stroke="#142B3A" stroke-width="4"/>
+  <rect x="480" y="155" width="120" height="225" rx="12" fill="#E6ECF0" stroke="#142B3A" stroke-width="4"/>
+  <path d="M 540 155 L 540 100" stroke="#D99A36" stroke-width="6"/>
+  <text x="40" y="468" fill="#546470" font-family="monospace" font-size="12">SAMPLE SCHEMATIC — 1,000 TO 5,500 m² HSA // SS 304 / SS 316L HEAT TRANSFER TUBES</text>
+</svg>

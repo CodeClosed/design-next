@@ -1,0 +1,11 @@
+================================================================================
+PLANT RFQ TECHNICAL INPUT CHECKLIST [SAMPLE TEMPLATE]
+================================================================================
+Please include the following parameters when requesting an equipment quote:
+1. Plant crushing capacity (TCD) or refinery throughput (TPD)
+2. Cane fiber % / Juice Brix / Target crystal grade
+3. Available steam & vapor pressure (bar(a) / kg/cm2) & temperature
+4. Preferred metallurgy (Carbon Steel / SS 304 / SS 316L / Duplex)
+5. Greenfield installation vs. brownfield footprint constraint (attach GA drawing)
+6. Target delivery window (next crushing off-season schedule)
+================================================================================

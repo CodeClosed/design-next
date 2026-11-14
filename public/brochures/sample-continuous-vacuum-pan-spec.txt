@@ -1,0 +1,11 @@
+================================================================================
+SAMPLE DATASHEET: VSP-CVP-120 — VERTICAL CONTINUOUS VACUUM PAN
+================================================================================
+NOTICE: Illustrative sample datasheet for corporate website template validation.
+
+SPECIFICATIONS:
+- Massecuite Output: 25 – 85 TPH
+- Strike Equivalent: 60 – 140 Tons
+- Compartments: 8 – 12 Cells
+- Heating Vapor Pressure: 0.25 – 0.65 bar(a)
+================================================================================

@@ -1,0 +1,11 @@
+================================================================================
+SAMPLE DATASHEET: VSP-BC-1750 — AUTOMATIC HIGH-G BATCH CENTRIFUGAL
+================================================================================
+NOTICE: Illustrative sample datasheet for corporate website template validation.
+
+SPECIFICATIONS:
+- Charge per Cycle: 1,250 / 1,500 / 1,750 kg Massecuite
+- Basket Sizes: 1,370 x 915 mm to 1,525 x 1,000 mm
+- Speed: 1,050 – 1,200 RPM (950 – 1,100 G)
+- Drive: Regenerative AC VFD + PLC/HMI Control
+================================================================================

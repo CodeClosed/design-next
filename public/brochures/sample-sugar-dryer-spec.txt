@@ -1,0 +1,11 @@
+================================================================================
+SAMPLE DATASHEET: VSP-SDC-60 — ROTARY CASCADE SUGAR DRYER & COOLER DRUM
+================================================================================
+NOTICE: Illustrative sample datasheet for corporate website template validation.
+
+SPECIFICATIONS:
+- Capacity: 15 – 75 TPH Crystal Sugar
+- Outlet Moisture: < 0.04%
+- Outlet Temperature: 36 – 40 deg C (Ambient + 5 deg C)
+- Contact Material: ASTM A240 SS 304
+================================================================================
